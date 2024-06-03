@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+{% load static %}
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>ADHRAVFOUNDATION| Charity / Non Governmental Organisation (NGO) </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Bootsrap -->
+        <link rel="stylesheet" href="{% static 'new/css/bootstrap.min.css' %}">
+
+
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="{% static 'new/css/font-awesome.min.css' %}">
+
+        <!-- PrettyPhoto -->
+        <link rel="stylesheet" href="{% static 'new/css/prettyPhoto.css' %}">
+
+        <!-- Template main Css -->
+        <link rel="stylesheet" href="{% static 'new/css/style.css' %}">
+        
+        <!-- Modernizr -->
+        <script src="{% static 'new/js/modernizr-2.6.2.min.js' %}"></script>
+
+
+    </head>
+    <body>
+    <!-- NAVBAR
+    ================================================== -->
+
+    <header class="main-header">
+        
+    
+        <nav class="navbar navbar-static-top">
+
+            <div class="navbar-top">
+
+              <div class="container">
+                  <div class="row">
+
+                    <div class="col-sm-6 col-xs-12">
+
+                        <ul class="list-unstyled list-inline header-contact">
+                             <li> <i class="fa fa-phone"></i> <a href="tel:+91 9150677737">+91 9150677737</a> </li>
+                             <li> <i class="fa fa-envelope"></i> <a href="mailto:adhravfoundation@gmail.com">adhravfoundation@gmail.com</a> </li>
+                       </ul> <!-- /.header-contact  -->
+                       </ul> <!-- /.header-contact  -->
+                      
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12 text-right">
+
+                        <ul class="list-unstyled list-inline header-social">
+
+                            <li> <a href="https://www.facebook.com/profile.php?id=100094737820077&mibextid=LQQJ4d" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
+                            <li> <a href="https://twitter.com/AdhravNGO" target="_blank"> <i class="fa fa-twitter"></i>  </a> </li>
+                            <li> <a href="https://youtube.com/@adhravfoundation" target="_blank"> <i class="fa fa-youtube"></i>  </a> </li>
+                            <li> <a href="https://instagram.com/adhravfoundation?igshid=MzRlODBiNWFlZA==" target="_blank"> <i class="fa fa-instagram"></i>  </a> </li>
+
+                       </ul> <!-- /.header-social  -->
+                      
+                    </div>
+
+
+                  </div>
+              </div>
+
+            </div>
+
+            <div class="navbar-main">
+              
+              <div class="container">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                  </button>
+                  
+                  <a class="navbar-brand" href="index.html"><img src="{% static 'new/images/logo.png' %}"width="7.5%";height="7.5%"; alt=""></a>
+                  
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse pull-right">
+
+                    <ul class="nav navbar-nav">
+						<li><a href="/disk/home/">HOME</a></li>
+						<li><a class="is-active"  href="/disk/about/">ABOUT</a></li>
+						<li class="has-child"><a href="/disk/causes">CAUSES</a></li>
+						<li><a href="/disk/gallery">GALLERY</a></li>
+					</ul>
+
+                </div> <!-- /#navbar -->
+
+              </div> <!-- /.container -->
+              
+            </div> <!-- /.navbar-main -->
+
+
+        </nav> 
+
+    </header> <!-- /. main-header -->
+
+
+	<div class="page-heading text-center">
+
+		<div class="container zoomIn animated">
+			
+			<h1 class="page-title">GALLERY <span class="title-under"></span></h1>
+			<p class="page-description">
+				A glimpse into our journey so far
+			</p>
+			
+		</div>
+
+	</div>
+
+	<div class="main-container">
+
+		<div class="container gallery fadeIn animated">
+
+			<div class="row">
+				
+
+					<a href="{% static 'new/images/nirmal.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/nirmal.jpg' %}" alt="">
+
+						<span class="on-hover">
+                            <h4><span class="hover-caption">Homeless</span></h4>
+						</span>
+
+					</a> <!-- /.gallery-item -->
+
+					<a href="{% static 'new/images/muts.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/muts.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><<span class="hover-caption">Stray dog</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+
+					<a href="{% static 'new/images/naina.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/naina.jpg' %}" alt="">
+						
+						<span class="on-hover">
+                            <h4><span class="hover-caption">Homeless</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+
+					<a href="{% static 'new/images/karupu.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/karupu.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">Stray dog</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+					<a href="{% static 'new/images/ish.jpeg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/ish.jpeg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">school kit</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+					<a href="{% static 'new/images/vijay.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/vijay.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">Stray dog</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+
+					<a href="{% static 'new/images/ayyama.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/ayyama.jpg' %}" alt="">
+
+						<span class="on-hover">
+							<h4><span class="hover-caption">Homeless</span></h4>
+						</span>
+
+					</a> <!-- /.gallery-item -->
+
+					<a href="{% static 'new/images/raja.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/raja.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">Provisional kit</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+
+					<a href="{% static 'new/images/chels.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/chels.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">Homeless</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+
+					<a href="{% static 'new/images/go.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/go.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">Homeless</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+					<a href="{% static 'new/images/bharath.jpg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/bharath.jpg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">Homeless</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+
+					<a href="{% static 'new/images/yy.jpeg' %}" class="col-md-3 col-sm-4 gallery-item lightbox">
+
+						<img src="{% static 'new/images/yy.jpeg' %}" alt="">
+						
+						<span class="on-hover">
+							<h4><span class="hover-caption">School kit</span></h4>
+						</span>
+						
+					</a> <!-- /.gallery-item -->
+					
+				
+			</div>
+			
+		</div>
+
+
+	</div> <!-- /.main-container  -->
+<footer class="main-footer">
+
+        <div class="footer-top">
+
+        </div>
+
+
+        <div class="footer-main">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <div class="footer-col">
+
+                            <h4 class="footer-title">ABOUT US <span class="title-under"></span></h4>
+
+                            <div class="footer-content">
+                                <p>
+
+                                    <strong>Adhravfoundation</strong> is a Non- governmental organisation and been registered and authorised by the government with Form 10 A , Section 12A & Certificate and Section 80G and CSR FORM 1 and been working towards the betterment of the society in all aspects. Adhrav foundation was established to initiate our part and responsibility to the society in the year 2021.
+                                </p>
+
+                                <p>
+                                    We started Adhrav foundation in 2021, since then, we have worked in all the fields trying to do our part such as feeding the homeless people who are suffering in streets, we even feed the stray dogs and provide provisional dry ration kit and other basic necessities to the underprivileged family protection of the environment and awareness campaigns for women and children, and much more.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <div class="footer-col">
+
+                            <h4 class="footer-title">CURRENT PROJECT <span class="title-under"></span></h4>
+
+                            <div class="footer-content">
+                                <ul class="tweets list-unstyled">
+                                    <li class="tweet">
+
+                                         “THE BRIDGE”
+is the collaborative initiative of Adhrav Foundation.The project was established on october 2021. This project aims to build the moral and educational background of the underprivileged children
+
+                                    </li>
+
+                                    <li class="tweet">
+
+                                        Our Reach On The Bridge Project
+After our first step in the Pallavaram and Pammal area, we have expanded our project to other parts of chennai. From January 2022, we are working on locations such as Perambur, Maduravoyal, Ambattur, Ashok Nagar, Korattur, Mogappair, Periyar Nagar, Villivakkam, etc. This is a huge step towards this project and we hope to cover all this area under “The Bridge” Project and provide help and support for the children located here. With this collaboration and volunteer participation, this project is all set to go. Various college clubs have come forward to collaborate with for volunteering and interacting with the children in these areas.
+
+                                    </li>
+
+                                    <li class="tweet">
+
+                                        We are collaborating with college clubs such as Easwari YRC, ISSM Rotary club and VIT. We are looking forward to expand our reach to further more colleges to take part in the project to build social awareness.
+You can find our work so far in this project from our social media’s.
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="col-md-4">
+
+                        <div class="footer-col">
+
+                            <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
+
+                            <div class="footer-content">
+
+                                <div class="footer-form" >
+                                    
+
+
+                                        <div class="form-group">
+
+                                        </div>
+
+                                         <div class="form-group">
+
+                                        </div>
+
+                                        <div class="form-group">
+
+                                        </div>
+
+                                        <div class="form-group alerts">
+                        
+                                            <div>
+                                              <p>contact: +91 9150677737</p>
+                                                <p>E-mail: adhravfoundation@gmail.com</p>
+                                                <p>instagram: @adhravfoundation</p>
+                                                <p>twitter: @AdhravNGO</p>
+                                                <p>facebook page: adhrav foundation</p>
+                                            </div>
+
+                                            <div>
+                                              
+                                            </div>
+                                            
+                                        </div>
+
+                                         <div class="form-group">
+
+                                        </div>
+                                        
+                                    </form>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="clearfix"></div>
+
+
+
+                </div>
+                
+                
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container text-right">
+                adhravfoundation @ copyrights 2021 - by Adhrav team
+            </div>
+        </div>
+        
+    </footer>
+
+
+
+
+       
+        
+        <!-- jQuery -->
+        <script src="{% static 'new//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' %}"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <!-- Bootsrap javascript file -->
+        <script src="{% static 'new/js/bootstrap.min.js' %}"></script>
+
+        <!-- PrettyPhoto javascript file -->
+        <script src="{% static 'new/js/jquery.prettyPhoto.js' %}"></script>
+
+        <!-- Template main javascript -->
+        <script src="{% static 'new/js/main.js' %}"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
